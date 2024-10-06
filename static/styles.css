@@ -13,6 +13,18 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+.logo-container {
+    display: flex; /* Use flexbox to center the logo */
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+    width: 150px; /* Set width for circular shape */
+    height: 150px; /* Set height for circular shape */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures the logo doesn't overflow */
+    background-color: rgba(255, 215, 0, 0.1); /* Optional: light background color */
+    border: 2px solid #FF6347; /* Optional: border around the circular container */
+    margin: 0 auto 20px; /* Center the container with margin below */
+}
 
 .container {
     max-width: 800px;
