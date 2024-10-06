@@ -4,7 +4,7 @@
     "main": "emo.html",
     "scripts": {
         "start": "serve .",
-        "build": "echo 'No build process required for static site'",
+        "build": "[my-framework] build --output public",
         "dev": "serve ."
     },
     "dependencies": {
