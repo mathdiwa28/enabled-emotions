@@ -1,0 +1,89 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    background-color: #222D39; /* Soft peach background */
+    color: #3E4C6D; /* Dark slate blue text color */
+    margin: 0;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo with margin below */
+    max-width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px; /* More rounded edges */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color:#BF9A33; /* Light coral background */
+    border: 2px solid #FF6347;/* Tomato border */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #3E4C6D; /* Dark slate blue text color */
+}
+
+.emotion-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px 30px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px; /* More rounded */
+    background-color: #1520A6; /* Medium sea green button background */
+    color: #BF9A33; /* White button text */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #2E8B57; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+.activity-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #3E4C6D; /* Dark slate blue text color */
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activities iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.activity-item {
+    background-color: #87CEEB; /* Light sky blue for activity items */
+    border-left: 6px solid #FF6347; /* Tomato border */
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: #222D39; /* Dark text color */
+    
+}
